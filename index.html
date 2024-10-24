@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,25 +15,25 @@
         <h1 class="titulo">CRUD</h1>
         <br>
         <P class="parrafoUno">Este CRUD es para agregar productos a una tienda.</P>
-        <form class="formulario" action="">
-            <label for="inputTarea" class="form-label">Producto</label>
-            <input id="inputTarea" class="form-control" type="text" placeholder="Escribe una tarea">
+        <form id="formulario" class="formulario" action="">
+            <label for="producto" class="form-label">Producto</label>
+            <input id="producto" class="form-control" type="text" placeholder="Nombre del producto">
             <br>
             <label for="descripcion" class="form-label">Descripción</label>
-            <input id="descripcion" class="form-control" type="text" placeholder="Escribe la descripción">
+            <input id="descripcion" class="form-control" type="text" placeholder="Escribe una breve descripción">
             <br>
             <label for="precio" class="form-label">Precio</label>
             <input id="precio" class="form-control" type="text" placeholder="$">
             <br>
             <div class="d-grid gap-2">
-            <button id="agregarProducto" class="btn btn-dark" type="button">Agregar producto</button>
+            <button id="agregarProducto" class="btn btn-dark" type="submit">Agregar producto</button>
             </div>
         </form>
+
+        <h2 id="productoFinal"></h2i>
     </article>
 
-    <article class="container">
-
-    </article>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./main.js"></script>

@@ -28,3 +28,13 @@ body{
 .formulario #descripcion{
     height: 70px;
 }
+
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+}
+
+.list-group-item button {
+  margin-left: 15px;
+}

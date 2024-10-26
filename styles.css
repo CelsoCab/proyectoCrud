@@ -1,32 +1,27 @@
-body{
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+body {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-family: "Rubik", sans-serif;
 }
-.titulo{
-    text-align: center;
-    font-size: 80px;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    }
 
-.parrafoUno{
-    text-align: center;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+.titulo {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.parrafoUno {
+  text-align: center;
+  font-weight: 300;
 }
 
 .formulario {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  font-weight: 500;
 }
 
-.formulario #descripcion{
-    height: 70px;
+.formulario #descripcion {
+  height: 70px;
 }
 
 .list-group-item {
@@ -37,4 +32,18 @@ body{
 
 .list-group-item button {
   margin-left: 15px;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.white-text {
+  color: white;
 }
